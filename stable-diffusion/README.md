@@ -25,14 +25,6 @@ and CLIP ViT-L/14 text encoder for the diffusion model. The model was pretrained
 then finetuned on 512x512 images.
 
 
-### Text-to-Image with Stable Diffusion
-
-Stable Diffusion is a latent diffusion model conditioned on the (non-pooled) text embeddings of a CLIP ViT-L/14 text encoder.
-We provide a [reference script for sampling](#reference-sampling-script), but
-there also exists a [diffusers integration](#diffusers-integration), which we
-expect to see more active community development.
-
-
 ## Comments 
 
 - Our codebase for the diffusion models builds heavily on [OpenAI's ADM codebase](https://github.com/openai/guided-diffusion)
