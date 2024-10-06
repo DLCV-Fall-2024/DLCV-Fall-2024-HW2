@@ -15,7 +15,6 @@ Thanks to a generous compute donation from [Stability AI](https://stability.ai/)
 Similar to Google's [Imagen](https://arxiv.org/abs/2205.11487), 
 this model uses a frozen CLIP ViT-L/14 text encoder to condition the model on text prompts.
 With its 860M UNet and 123M text encoder, the model is relatively lightweight and runs on a GPU with at least 10GB VRAM.
-See [this section](#stable-diffusion-v1) below and the [model card](https://huggingface.co/CompVis/stable-diffusion).
 
 
 ## Stable Diffusion
